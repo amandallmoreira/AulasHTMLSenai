@@ -1,0 +1,61 @@
+@import url('https://googleapis.com');
+@import url("https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css");
+
+header{
+    background-color: #fcc44a;
+}
+
+.hero{
+    background-image: url("https://wallpapercave.com/wp/wp14614906.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+     background-color: #d8e2dc;
+}
+
+
+html body .container {
+    background-color: #c4ab77;
+    padding: 20px;
+    border-radius: 10px;
+    
+    /* Encolhe a div exatamente para o tamanho do texto */
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important; 
+    max-width: 90% !important; /* Deixa uma folga para não colar nas bordas em celulares */
+
+    /* Centraliza perfeitamente a div na horizontal */
+    margin: 20px auto !important; 
+}
+
+h1 {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Playwrite GB J", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: whitesmoke;
+}
+
+.card{
+    width: 400px;
+    margin: 20px auto;
+    
+}

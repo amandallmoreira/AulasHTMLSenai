@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Meu primeiro site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Style.css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <section class="hero is-medium">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <img src="https://bulma.io/assets/images/bulma-type-white.png" alt="Logo" />
+                            </a>
+                            <span class="navbar-burger" data-target="navbarMenuHeroA">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item is-active"> Home </a>
+                                <a class="navbar-item"> Examples </a>
+                                <a class="navbar-item"> Documentation </a>
+                                <span class="navbar-item">
+                                    <a class="button is-primary is-inverted">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Download</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="title">Coop games</p>
+                    <p class="subtitle">Conheça It Takes Two</p>
+                </div>
+            </div>
+
+            <!-- Hero footer: will stick at the bottom -->
+            <div class="hero-foot">
+                <nav class="tabs">
+                    <div class="container">
+                        <ul>
+                            <li class="is-active"><a>Overview</a></li>
+                            <li><a>Modifiers</a></li>
+                            <li><a>Grid</a></li>
+                            <li><a>Elements</a></li>
+                            <li><a>Components</a></li>
+                            <li><a>Layout</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <div class="container p-3">
+            <h1>It Takes Two</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                perspiciatis corporis sint tempore consectetur similique ducimus enim!
+                Ut corporis dolorum quam omnis! Hic perferendis dolor eligendi
+                cupiditate corrupti earum officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repellat illo accusantium officiis
+                praesentium. Eaque eligendi ex deserunt reiciendis sed repellendus,
+                suscipit porro. Consequatur illo illum blanditiis odit, modi accusamus
+                et.
+            </p>
+        </div>
+
+        <!-- COLUNA DE CARDS -->
+        <div class="flex-container row">
+            <div class="row">
+                <!-- CARD -->
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://cdna.artstation.com/p/assets/images/images/036/852/908/large/jacob-larsson-screenshot02.jpg?1618820825"
+                                alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="https://bulma.io/assets/images/placeholders/96x96.png"
+                                        alt="Placeholder image" />
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">John Smith</p>
+                                <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br />
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        </div>
+                    </div>
+                    <!-- FIM CARD -->
+                </div>
+                <div class="row">
+                    <!-- CARD -->
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://cdnb.artstation.com/p/assets/images/images/036/851/415/medium/malin-schneider-malin-schneider-cody-01b-logo.jpg?1618816237"
+                                    alt="Placeholder image" />
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="https://bulma.io/assets/images/placeholders/96x96.png"
+                                            alt="Placeholder image" />
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <p class="subtitle is-6">@johnsmith</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                                nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                                <a href="#">#responsive</a>
+                                <br />
+                                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                            </div>
+                        </div>
+                        <!-- FIM CARD -->
+                    </div>
+                </div>
+                <!-- FIM COLUNA DE CARDS -->
+
+
+
+            </div>
+    </section>
+</body>
+
+</html>
