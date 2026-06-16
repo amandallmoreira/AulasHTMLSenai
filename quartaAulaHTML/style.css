@@ -1,0 +1,102 @@
+:root {
+  /* Redefinindo as cores principais do Bootstrap */
+  --bs-primary: #F2E9E4;       
+  --bs-primary-rgb: 242, 233, 228; 
+
+  --bs-secondary: #C9ADA7;     
+  --bs-secondary-rgb: 201, 173, 167;
+
+  --bs-success: #198754;       
+  --bs-success-rgb: 25, 135, 84;
+
+  --bs-danger: #dc3545;       
+  --bs-danger-rgb: 220, 53, 69;
+
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: #9A8C98;
+}
+
+
+
+/* Comportamento de rolagem suave ao clicar nos links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilização básica para o cabeçalho fixo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #22223B;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+nav a {
+    color: white !important;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F2E9E4 !important;
+    font-size: larger;
+}
+
+/* Estilo para as seções do corpo (apenas para demonstração) */
+section {
+    padding: 100px 20px;
+    height: auto;
+    border-bottom: 1px solid #C9ADA7;
+}
+
+body {
+    
+    background-color: #F2E9E4 !important;
+}
+
+main{
+    margin-top: 20px;
+}
+
+.carousel-item img{
+    /* Seta uma altura fixa para as imagens do carousel */
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-group li{
+    background-color: #C9ADA7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.navbar container-fluid{
+    height:10px;
+}
+
+footer{
+    background-color:#9A8C98 !important;
+    color:antiquewhite;
+    font-size: large;
+    font-weight: bold;
+}
+
+
