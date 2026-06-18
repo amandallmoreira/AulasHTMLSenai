@@ -37,37 +37,37 @@
                     for="cargo">Selecione seu cargo:</label>
 
                     <select class="form-control" id="cargo">
-                        <option value="">Desenvolvedor Jr</option>
-                        <option value="">Desenvolvedor Pleno</option>
-                        <option value="">Desenvolvedor Sênior</option>
-                        <option value="">Analista de Dados</option>
-                        <option value="">Gerente de Projetos</option>
+                        <option value="Desenvolvedor Jr">Desenvolvedor Jr</option>
+                        <option value="Desenvolvedor Pleno">Desenvolvedor Pleno</option>
+                        <option value="Desenvolvedor Sênior">Desenvolvedor Sênior</option>
+                        <option value="Analista de Dados">Analista de Dados</option>
+                        <option value="Gerente de Projetos">Gerente de Projetos</option>
                     </select>
 
                     <label class="form-label"
                     for="departamento">Selecione seu Departamento:</label>
                    <select class="form-control" id="departamento">
-                        <option value="">Desenvolvimento de Software</option>
-                        <option value="">Dados</option>
-                        <option value="">Infraestrutura</option>
-                        <option value="">Segurança da Informação</option>
-                        <option value="">Projetos</option>
+                        <option value="Desenvolvimento de Software">Desenvolvimento de Software</option>
+                        <option value="Dados">Dados</option>
+                        <option value="Infraestrutura">Infraestrutura</option>
+                        <option value="Segurança da Informação">Segurança da Informação</option>
+                        <option value="Projetos">Projetos</option>
                     </select>
                     <!-- RADIO -->
                     <label for="temAcessoRestrito">Funcionário tem acesso restrito?</label>
-                    <input type="radio" name="temAcessoRestrito"><label for="temAcessoRestrito" value="True">Sim</label>
-                    <input type="radio" name="temAcessoRestrito"><label for="temAcessoRestrito" value="False">Não</label>
+                    <input type="radio" name="temAcessoRestrito" value="Sim" id="temAcessoRestritoSim"><label for="temAcessoRestritoSim">Sim</label>
+                    <input type="radio" name="temAcessoRestrito" value="Nao" id="temAcessoRestritoNao"><label for="temAcessoRestritoNao">Não</label>
                     
                 </div>
                 <br>
-                <button class="btn btn-primary" onclick="imprimirNome()">Enviar dados</button>
+                <button class="btn btn-primary" onclick="imprimirCracha()">Enviar dados</button>
             </form>
             <!-- Comentário HTML - Comentar  Ctrl + ;     -->
             
         </div>
     </main>
     <!-- SCRIPTS -->
-    <script src="formulario.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
