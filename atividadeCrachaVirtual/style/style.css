@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+    background-color: #F0EAD2;
+    font-family:"Roboto Mono", monospace;
+}
+
+button{
+    background-color: #6C584C !important;
+    border-color: #6C584C !important;
+}
