@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Teste de Persistência</title>
+    <link rel='stylesheet' href=''>
+</head>
+<body>
+    <form action="">
+        <label  for="texto-inserido" >Coloque seu nome:</label>
+        <input type="text" placeholder="Ex: João" id="texto-inserido"> <strong id="nomeSalvo">Nenhum Nome</strong>
+
+       
+        <br>
+        <p>Nome salvo atualmente:</p>
+        
+
+        <label  for="idade-inserida" >Digite sua idade:</label>
+        <input type="text" placeholder="Ex: João" id="idade-inserida"> <strong id="idadeSalva">Nenhuma idade</strong>
+
+        <br>
+        <p>Idade salva atualmente:</p>
+        <br>
+        <button type="button" onclick="salvarNome()">Salvar</button>
+        <script src="persistente.js"></script>
+    </form>
+</body>
+</html>
