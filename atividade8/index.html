@@ -23,8 +23,26 @@
         <p>Seu resultado é: <strong id="resultado"></strong></p>
         <br>
         <br>
-        <button onclick="apagarLocalStorage()">Apagar histórico</button>
-        <script src="js/funcoes.js"></script>
+        
     </main>
+
+    <main>
+        <div>
+            <h1>Cálculo de ICMS sobre Dólares</h1>
+         
+            <label for="valorProduto">Digite o valor do produto em dólares:</label>
+            <input type="number" id="valorProduto">
+            <br>
+            <button onclick="calcularImpostoImportacao()">Enviar</button><br>
+            <p>Seu resultado é: <strong id="resultadoFinal"></strong></p>
+            <p for="tipoRegra" id="tipoRegra"></p>
+            <br>
+            <br>
+            <button onclick="apagarLocalStorage()">Apagar histórico</button>
+           
+            
+        </div>
+    </main>
+    <script src="js/funcoes.js"></script>
 </body>
 </html>
